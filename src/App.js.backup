@@ -316,15 +316,9 @@ const QuizGame = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900 flex items-center justify-center p-4">
       <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-8 max-w-2xl w-full border border-white/20 shadow-2xl">
-        {/* Header with Back Button */}
+        {/* Header */}
         <div className="flex justify-between items-center mb-8">
           <div className="flex items-center gap-2">
-            <button
-              onClick={resetGame}
-              className="bg-white/20 hover:bg-white/30 text-white px-3 py-2 rounded-lg font-semibold mr-4 transition-all duration-300"
-            >
-              ← Geri
-            </button>
             <Brain className="w-6 h-6 text-purple-300" />
             <span className="text-white font-semibold">Quiz Oyunu</span>
           </div>
